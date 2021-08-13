@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "MeshDenoising_1",
+    "nodeType": "MeshDenoising",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_meshDenoising  --input \"C:/Users/dev/Desktop/meshroom/MeshroomCache/Meshing/9c5803df2ae79999fa69c5a0d95513aa3561d9b6/mesh.obj\" --denoisingIterations 1 --meshUpdateClosenessWeight 0.001 --lambda 0.7 --eta 1.5 --mu 1.5 --nu 0.3 --meshUpdateMethod 0 --verboseLevel info --output \"C:/Users/dev/Desktop/meshroom/MeshroomCache/MeshDenoising/aa0adb25be15e14c82e24b210b15bc77fe93c099/mesh.obj\"",
+    "env": null,
+    "startDateTime": "2021-03-03 10:53:42.997251",
+    "endDateTime": "2021-03-03 10:54:11.059181",
+    "elapsedTime": 28.06192970275879,
+    "hostname": "DESKTOP-GIAKCST",
+    "sessionUid": "1b6195d0-7bb9-11eb-abc8-5c80b65aa063",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:28.061930"
+}

@@ -1,0 +1,42 @@
+Program called with the following parameters:
+ * denoisingIterations = 2
+ * eta = 1.5
+ * input = "C:/Users/dev/Desktop/meshroom/MeshroomCache/Meshing/9c5803df2ae79999fa69c5a0d95513aa3561d9b6/mesh.obj"
+ * lambda = 1
+ * meshUpdateClosenessWeight = 0.001
+ * meshUpdateMethod = 0
+ * mu = 1.5
+ * nu = 0.3
+ * output = "C:/Users/dev/Desktop/meshroom/MeshroomCache/MeshDenoising/be6dd556e29f0f08cd7f9316ccf185e810b31540/mesh.obj"
+ * verboseLevel = "info"
+
+
+====== Filter parameters =========
+Lambda: 1
+Eta:1.5
+Mu:1.5
+Nu:0.3
+Mesh denoising outer iterations: 2
+==================================
+
+[10:49:12.867031][info] Mesh file: "C:/Users/dev/Desktop/meshroom/MeshroomCache/Meshing/9c5803df2ae79999fa69c5a0d95513aa3561d9b6/mesh.obj" loaded.
+[10:49:12.873017][info] Input mesh: 273591 vertices and 546805 facets.
+[10:49:12.873017][info] Mesh normalization.
+[10:49:12.887993][info] Start mesh denoising.
+Denoising started
+Outer iteration 1...
+Preprocessing......
+Filtering......
+Solver converged after 9 iterations
+Starting iterative mesh update......
+Outer iteration 2...
+Preprocessing......
+Filtering......
+Solver converged after 4 iterations
+Starting iterative mesh update......
+Denoising completed, timing: 45.119
+[10:49:58.016216][info] Mesh denoising done.
+[10:49:58.107972][info] Output mesh: 273591 vertices and 546805 facets.
+[10:49:58.107972][info] Save mesh.
+[10:49:59.324714][info] Mesh file: "C:/Users/dev/Desktop/meshroom/MeshroomCache/MeshDenoising/be6dd556e29f0f08cd7f9316ccf185e810b31540/mesh.obj" saved.
+[10:49:59.324714][info] Task done in (s): 49.088000
